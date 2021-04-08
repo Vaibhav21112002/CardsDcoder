@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Counters from './Components/counter'
+// import Counters from './Components/counter'
 import 'bootstrap/dist/css/bootstrap.css';
+import Card from './Components/cardcompile'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <Counters />
+    <Card />
   </React.StrictMode>,
   document.getElementById('root')
 );
