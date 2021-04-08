@@ -5,11 +5,11 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import Counters from './Components/counter'
 import 'bootstrap/dist/css/bootstrap.css';
-import Card from './Components/cardcompile'
+import Cards from './Components/finalcards'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Card />
+    <Cards />
   </React.StrictMode>,
   document.getElementById('root')
 );
