@@ -5,10 +5,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import Counters from './Components/counter'
 import 'bootstrap/dist/css/bootstrap.css';
-import Cards from './Components/finalcards'
+import Cards from './Components/finalcards';
+import Navbar from './Components/navbar';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Navbar />
     <Cards />
   </React.StrictMode>,
   document.getElementById('root')
